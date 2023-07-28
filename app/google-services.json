@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "468830295109",
+    "firebase_url": "https://cardealerproject.firebaseio.com",
+    "project_id": "cardealerproject",
+    "storage_bucket": "cardealerproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468830295109:android:ef57724b4441ba37a9ff2c",
+        "android_client_info": {
+          "package_name": "com.example.cardealerproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468830295109-v7bd2rqj9gha6kf92hhb96jfr221slgl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cardealerproject",
+            "certificate_hash": "79dff63f8b31a87c515abd06751a2ac45a41a181"
+          }
+        },
+        {
+          "client_id": "468830295109-h1n6d5mb8fim0tpuofm9onf6hls88igc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEBz_qik1BxQ_u-NOp0N0PKmJQWCdPLRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468830295109-h1n6d5mb8fim0tpuofm9onf6hls88igc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

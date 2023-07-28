@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Car Dealer</string>
+
+    <array name="jenismobil">
+        <item>Sedan</item>
+        <item>MPV</item>
+        <item>Pickup</item>
+        <item>Truck</item>
+    </array>
+</resources>

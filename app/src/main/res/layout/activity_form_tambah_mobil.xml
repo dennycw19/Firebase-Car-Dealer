@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormTambahMobil">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENTRY DATA MOBIL"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:background="@color/biru_800"
+        android:textColor="@color/putih"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp">
+
+    </View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ediTextKodeBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Kode Barang"/>
+        <EditText
+            android:id="@+id/ediTextMerkMobil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Merk Mobil"/>
+        <EditText
+            android:id="@+id/ediTextTahunProduksi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Tahun Produksi"/>
+        <Spinner
+            android:id="@+id/spinnerJenisMbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/jenismobil"></Spinner>
+        <EditText
+            android:id="@+id/ediTextKeterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Keterangan"/>
+        <EditText
+            android:id="@+id/ediTextStokMobil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Jumlah Stok"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:padding="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tombolAdd"
+            android:layout_width="143dp"
+            android:layout_height="60dp"
+            android:text="ADD"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

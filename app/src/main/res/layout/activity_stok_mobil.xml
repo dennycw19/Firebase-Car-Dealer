@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StokMobil">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Kode Mobil"
+            android:textSize="15sp"
+            android:textColor="@color/hitam"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Merk Mobil"
+            android:textSize="15sp"
+            android:textColor="@color/hitam"
+            android:layout_weight="3"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Th. Prod."
+            android:textSize="15sp"
+            android:textColor="@color/hitam"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Jenis"
+            android:textSize="15sp"
+            android:textColor="@color/hitam"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Ket"
+            android:textSize="15sp"
+            android:textColor="@color/hitam"
+            android:layout_weight="3"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Stok"
+            android:textSize="15sp"
+            android:textColor="@color/hitam"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/hitam"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/listViewStokMobil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabBtnStokMobil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:src="@drawable/ic_add_black_24dp"
+            android:backgroundTint="@color/biru_800"
+            android:layout_margin="16dp"
+            app:fabSize="normal"/>
+            -->
+    </FrameLayout>
+
+
+
+</LinearLayout>

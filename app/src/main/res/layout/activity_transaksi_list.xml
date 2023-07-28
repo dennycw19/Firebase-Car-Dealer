@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TransaksiList">
+    <!--
+    <TextView
+        android:text="MBL0001"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/textViewTransaksiKodeBarangTrans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:text="19-12-2019"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:id="@+id/textViewTransaksiTanggalTrans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="FA0001"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:id="@+id/textViewTransaksiNoFakturTrans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:text="2"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:id="@+id/textViewTransaksiJumlahJualTrans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="50000000"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:id="@+id/textViewTransaksiHargaJualTrans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="1000000000"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:id="@+id/textViewTransaksiTotalJualTrans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:padding="3dp"
+        android:orientation="horizontal">
+        <TextView
+            android:text="MBL0001"
+            android:id="@+id/textViewTransaksiKodeBarangTrans"
+            android:textSize="15sp"
+            android:textColor="@color/hitam"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="19-12-2019"
+            android:id="@+id/textViewTransaksiTanggalTrans"
+            android:textSize="15sp"
+            android:textColor="@color/hitam"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="FA0001"
+            android:id="@+id/textViewTransaksiNoFakturTrans"
+            android:textSize="15sp"
+            android:textColor="@color/hitam"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="2"
+            android:id="@+id/textViewTransaksiJumlahJualTrans"
+            android:textSize="15sp"
+            android:textColor="@color/hitam"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="50000000"
+            android:id="@+id/textViewTransaksiHargaJualTrans"
+            android:textSize="15sp"
+            android:textColor="@color/hitam"
+            android:layout_weight="3"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="1000000000"
+            android:id="@+id/textViewTransaksiTotalJualTrans"
+            android:textSize="15sp"
+            android:textColor="@color/hitam"
+            android:layout_weight="3"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Jual"
+            android:id="@+id/textViewTransaksiStatusTrans"
+            android:textSize="15sp"
+            android:textColor="@color/hitam"
+            android:layout_weight="3"
+            android:layout_marginRight="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

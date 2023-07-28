@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TransaksiBeli">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRANSAKSI BELI"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:background="@color/biru_800"
+        android:textColor="@color/putih"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp">
+
+    </View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewBeliTransKodeBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/bt_datepickerBeli"
+            android:text="Show DatePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_dateresultBeli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"/>
+        <EditText
+            android:id="@+id/ediTextBeliTransNoFaktur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="No Faktur"/>
+        <EditText
+            android:id="@+id/ediTextBeliTransJumlahBeli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Jumlah Beli"/>
+        <EditText
+            android:id="@+id/ediTextBeliTransHargaBeli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Harga Beli"/>
+        <Button
+            android:id="@+id/buttonHitungBeli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hitung"/>
+        <TextView
+            android:id="@+id/textViewBeliTransTotalBeli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_marginBottom="30dp"/>
+
+
+        <Button
+            android:id="@+id/buttonTransaksiBeli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entry"/>
+
+    </LinearLayout>
+
+</LinearLayout>
